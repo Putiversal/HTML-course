@@ -1,0 +1,30 @@
+/* Используем селектор по тегу */
+/* h1 {
+    color: red;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+/* Селектор по ID */
+#header {
+    background: rgba(43, 3, 3, 0.14);
+    padding: 2px;
+}
+
+.short {
+    font-size: 12px;
+    font-weight: 200;
+    font-style: italic;
+    color: gray;
+}
+
+.resourse {
+    line-height: 4px;
+}
