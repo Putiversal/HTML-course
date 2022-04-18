@@ -9,7 +9,10 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
-
+    
+    color: #0f141e;
+    background-color: #f1f1f1;
+    
 }
 
 /* Селектор по ID */
@@ -18,7 +21,7 @@ body {
     padding: 2px;
 }
 
-.short {
+.short_info {
     font-size: 12px;
     font-weight: 200;
     font-style: italic;
@@ -26,5 +29,23 @@ body {
 }
 
 .resourse {
-    line-height: 4px;
+    line-height: 20px;
+}
+
+.red_text {
+    color: darkgoldenrod;
+}
+
+.golden {
+    color: goldenrod;
+}
+
+.card {
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: #fff;
+    border-color: black;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
 }
