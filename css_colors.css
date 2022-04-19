@@ -1,0 +1,23 @@
+.item-DRed {
+    color: darkred;
+}
+
+.item_color_golden {
+    color: goldenrod;
+}
+
+.item_color_green {
+    color: green;
+}
+
+.bg-green{
+    background-color: lightgreen;
+}
+
+.bg-red{
+    background-color: lightcoral;
+}
+
+.bg-blue{
+    background-color: lightblue;
+}

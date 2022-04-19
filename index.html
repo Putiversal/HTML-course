@@ -10,24 +10,27 @@
     сайта html"> 
     <title>HTML Course!</title>
 
+    <link rel="stylesheet" href="css_colors.css">
     <link rel="stylesheet" href="css_course.css">
 </head>
     <body>
         <div class="container">
-            <div class="main_header card">
+            <div class="main_header card bg-blue">
+                <img class="my_photo" src="my_photo.jpg" alt="Тут моя фотография">
+                
                 <header id="header">
                     <h1>
                         Финк Даниэль Дмитриевич
                     </h1>
                 </header>
             
-                <img class="my_photo" src="my_photo.jpg" alt="Тут моя фотография" width = 200>
+                
             
                 <div class="short_info">
                     <p> <h2>Студент <strong>МГТУ им. Баумана</strong> 3го курса на факультете <em>ИУ</em>
                 </div>
             
-                <div class='slogan golden'>
+                <div class='slogan item_color_golden'>
                     <h2>Моя цель - найти работу и стать разработчиком!</h2>
                 </div>
             </div>
@@ -37,7 +40,7 @@
                     <h2>Опыт разработки</h2>
                 </div>
             
-                <table>
+                <table class="table">
                     <thead>
                         <tr>
                             <th>Язык разработки</th>
@@ -107,19 +110,24 @@
             </div>
 
             <div class="form card">
-                <div class="mini_header">
-                    <h2>Вы можете связаться со мной <span class="DRed_color">(Пока не работает)</span></h2>
-                </div>
-            
-                <label for="YourName">Ваше имя</label>
+                <div class="mini_header" id="contact_with_me">
+                    <h2>Связаться со мной! <span class="item-DRed">(Пока не работает)</span></h2>
+            </div>
+            <div class="form-group">
+                <label for="YourName">Ваше имя:</label>
                 <input type="text" placeholder = "Введите имя" id="YourName">
-                <br>
-                <label for="YourEmail">Ваш Email</label>
+            </div>
+            
+            <div class="form-group">
+                <label for="YourEmail">Ваш Email:</label>
                 <input type="email" placeholder = "Ваш email" id="YourEmail">
-                <br>
-                <label for="Message">Ваше сообщение</label> <br>
-                <textarea type="text" placeholder = "Ваше сообщение" id="Message"> </textarea>
-                <br>
+            </div>
+            
+            <div class="form-group" id="Message">
+                <label for="Message">Ваше сообщение:</label> <br>
+                <textarea type="text" placeholder = "Ваше сообщение"> </textarea>
+            </div>
+            
                 <!-- <input type="submit" value="Отравить форму"> -->
                 <button class="btn">Отравить!</button>
             </div>

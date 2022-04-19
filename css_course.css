@@ -11,12 +11,10 @@
 }
 
 .container {
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
     padding-top: 10px;
 }
-
-
 
 body {
     font-family: "Roboto", sans-serif;
@@ -29,10 +27,10 @@ body {
 }
 
 h2 {
-    padding: 8px;
+    padding: 12px;
 }
 h3 {
-    padding: 8px;
+    padding: 12px;
 }
 
 td {
@@ -44,6 +42,9 @@ td {
 #header {
     background: rgba(43, 3, 3, 0.14);
     padding: 2px;
+    margin-bottom: 5px;
+    display: inline-block;
+    width: 64%;
 }
 
 .short_info {
@@ -55,18 +56,6 @@ td {
 
 .resourse {
     line-height: 20px;
-}
-
-.DRed_color {
-    color: darkred;
-}
-
-.golden {
-    color: goldenrod;
-}
-
-.green_color {
-    color: green;
 }
 
 th {
@@ -85,14 +74,15 @@ li {
 }
 
 .my_photo {
+    width: 33%;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     margin-bottom: 15px;
+    margin-top: 10px;
+    display: inline-block;
 }
 
-#header {
-    margin-bottom: 5px;
-}
+
 
 .card {
     border: 3px solid;
@@ -130,4 +120,56 @@ a:visited {
 
 .btn:hover {
     opacity: 0.8;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    text-align: center;
+}
+
+.table td:hover {
+    background-color: #eeefff;
+}
+
+.table tr:nth-child(even) {
+    background-color: #eee;
+}
+
+.card ol li{
+    margin-bottom: 4px;
+    border-bottom: 1px solid black;
+}
+
+
+#contact_with_me {
+    text-align: center;
+}
+
+.small_input {
+    width: 49%;
+    box-sizing: border-box;
+}
+
+.form input, .form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    font-family: inherit;
+}
+
+.form-group {
+    width: 45%;
+    display: inline-block;
+    padding: 5px;
+    margin-right: 15px;
+}
+
+#Message {
+    width: 90%;
 }
