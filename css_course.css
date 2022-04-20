@@ -3,23 +3,6 @@
     color: red;
 } */
 
-@media (max-width: 741) {
-
-    .my_photo {
-        width: 20%;
-        box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
-        border-radius: 15px;
-        margin-bottom: 15px;
-        margin-top: 10px;
-        margin-right: 10px;
-        display: block;
-    }
-
-    .main_header {
-        display: block;
-    }
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
@@ -210,4 +193,21 @@ a:visited {
 
 .main_header {
     display: flex;
+}
+
+@media (max-width: 741) {
+
+    .my_photo {
+        width: 20%;
+        box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        margin-right: 10px;
+        display: block;
+    }
+
+    .main_header {
+        display: block;
+    }
 }
