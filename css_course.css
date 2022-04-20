@@ -11,7 +11,7 @@
 }
 
 .container {
-    max-width: 600px;
+    max-width: 100%px;
     margin: auto;
     padding-top: 10px;
 }
@@ -172,4 +172,9 @@ a:visited {
 
 #Message {
     width: 90%;
+}
+
+.info {
+    /* display: flex; */
+    display: inline-block;
 }
